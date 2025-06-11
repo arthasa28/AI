@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADN - AI Campus</title>
+    <link rel="icon" type="image/png" href="asset/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <h1>ADN Network.</h1>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <nav class="nav-desktop">
+                    <a href="#home">Beranda</a>
+                    <a href="https://store.arthasa.my.id/">Produk</a>
+                    <a href="https://arthasa.my.id/">Tentang</a>
+                    <a href="https://wa.me/66825420879">Kontak</a>
+                </nav>
+                
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            
+            <!-- Mobile Navigation -->
+            <nav class="nav-mobile" id="mobileNav">
+                <a href="#home">Beranda</a>
+                <a href="https://store.arthasa.my.id/" target="_blank">Produk</a>
+                <a href="https://arthasa.my.id/" target="_blank">Tentang</a>
+                <a href="https://wa.me/66825420879" target="_blank">Kontak</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <div class="hero-circle hero-circle-1"></div>
+            <div class="hero-circle hero-circle-2"></div>
+            <div class="hero-circle hero-circle-3"></div>
+        </div>
+        
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <br>
+                    <span class="title-line1 fade-in">Temukan</span>
+                    <span class="title-line2 fade-in">Artificial Intelligence</span>
+                </h1>
+                
+                <p class="hero-subtitle fade-in">
+                    Jelajahi koleksi solusi Artificial Intelligence berkualitas tinggi yang dirancang khusus untuk mendukung kegiatan belajar, riset, dan kehidupan kampus Anda.
+                </p>
+                
+                <div class="hero-buttons fade-in">
+                    <button class="btn btn-cta" onclick="scrollToProducts()">
+                        Jelajahi Artificial Intelligence
+                        <span class="arrow-down">↓</span>
+                    </button>
+                    <button class="btn btn-outline-lg" onclick="window.location.href='https://arthasa.my.id/donasi-pembayaran/'">Dukung Kami</button>
+                </div>
+                
+                <div class="hero-stats fade-in">
+                    <div class="stat">
+                        <div class="stat-number">8</div>
+                        <div class="stat-label">AI Unggulan</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">100+</div>
+                        <div class="stat-label">Pelanggan Puas</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">5★</div>
+                        <div class="stat-label">Rating Rata-rata</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">24/7</div>
+                        <div class="stat-label">Dukungan</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <div class="section-header">
+                <h2>AI Unggulan Kami</h2>
+                <p>Pilihan terbaik dari berbagai solusi Artificial Intelligence berkualitas tinggi yang telah dipercaya oleh ribuan mahasiswa dan institusi pendidikan.</p>
+            </div>
+            
+            <div class="products-grid" id="productsGrid">
+                <!-- Products will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-bottom">
+                <p>&copy; 2022 ADN Network. Semua hak dilindungi.</p>
+            </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
