@@ -189,16 +189,16 @@ const products = [
     websiteUrl: "https://www.microsoft.com/id-id/microsoft-365/powerpoint",
     category: "Presentations",
   },
-  /*
   {
-    title: "##",
-    description: "#",
+    title: "Braintext",
+    description: "Membuat makalah dengan sederhana, akademik, jurnal global",
     price: "Free & Paid",
-    rating: 4.9,
-    image: "asset/",
-    websiteUrl: "##",
+    rating: 4.5,
+    image: "asset/braintext.png",
+    websiteUrl: "https://braintext.ai/",
     category: "AI",
   },
+/*
   {
     title: "##",
     description: "#",
